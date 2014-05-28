@@ -94,15 +94,15 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="39.82247"
-     inkscape:cy="10.970427"
+     inkscape:cx="25.175598"
+     inkscape:cy="11.871053"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1364"
-     inkscape:window-height="699"
+     inkscape:window-height="703"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      borderlayer="true"
      inkscape:showpageshadow="false"
@@ -144,12 +144,12 @@
        id="rect3850"
        transform="translate(444.64286,782.36218)" />
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#7c4285;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#a348b1;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Sans;-inkscape-font-specification:Sans"
        d="M 44.5 0 C 38.7003 0 34 4.7003 34 10.5 C 34 16.2997 38.7003 21 44.5 21 L 61.5 21 C 67.2997 21 72 16.2997 72 10.5 C 72 4.7003 67.2997 0 61.5 0 L 44.5 0 z M 44.5 1 L 61.5 1 C 66.762999 1 71 5.2370005 71 10.5 C 71 15.762999 66.762999 20 61.5 20 L 44.5 20 C 39.237001 20 35 15.762999 35 10.5 C 35 5.2370005 39.237001 1 44.5 1 z "
        transform="translate(444.64286,782.36218)"
        id="rect3884" />
     <rect
-       style="opacity:1;color:#000000;fill:none;stroke:#7c4285;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       style="opacity:1;color:#000000;fill:none;stroke:#a348b1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="rect3080"
        width="72"
        height="21"
@@ -159,7 +159,7 @@
        ry="10.5"
        clip-path="url(#clipPath3860)" />
     <rect
-       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;opacity:0.7"
+       style="color:#000000;fill:#444444;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;opacity:1"
        id="rect3872"
        width="36.000008"
        height="18.999998"
