@@ -1,0 +1,14 @@
+Source: moka-cinnamon-theme
+Section: gnome
+Priority: optional
+Maintainer: Sam Hewitt <hewittsamuel@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: https://github.com/moka-project/moka-cinnamon-theme
+
+Package: moka-cinnamon-theme
+Architecture: all
+Depends: ${misc:Depends}
+ cinnamon, cinnamon-extensions
+Description: Moka Cinnamon Theme
+ Moka Cinnamon theme.

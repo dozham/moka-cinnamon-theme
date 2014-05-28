@@ -1,0 +1,10 @@
+{ 
+   "cinnamon-theme": {
+   "name": "Moka", 
+   "author": "snwh", 
+   "version": "1.0",
+   "type":   "custom",
+   "thumbnail": "thumbnail.png", 
+   "url": "http://mokaproject.com/moka-cinnamon-theme/" 
+    }
+}
