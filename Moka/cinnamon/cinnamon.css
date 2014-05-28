@@ -358,15 +358,28 @@ StScrollBar StButton#vhandle:hover {
 #overview {
     spacing: 12px;
 }
+
 .window-caption {
-    background-color: black;
-    color: white;
+    border: 1px solid #777;
+    border-radius: 6px;
+    padding: 4px 12px;
+    background-gradient-end: rgba(0, 0, 0, 0.8);
+    background-gradient-start: rgba(0, 0, 0, 0.8);
+    background-gradient-direction: vertical;
+    color: #fff    ;
+    font-size: 8.5pt;
+    font-weight: bold;
+    text-align: center;
+    -cinnamon-caption-spacing: 4px;
     spacing: 25px;
 }
 
 .window-caption#selected {
-    background-color: white;
-    color: black;
+    border: 1px solid rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.3);
+    background-gradient-end: rgba(255,255,255,0.3);
+    background-gradient-start: rgba(255,255,255,0.3);
+    color: white;
     spacing: 25px;
 }
 
@@ -400,34 +413,25 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .workspace-close-button {
-    padding: 2px;
     background-image: url("assets/close-window.svg");
     background-size: 24px;
     height: 24px;
     width: 24px;
-    -cinnamon-close-overlap: 20px;
+    -cinnamon-close-overlap: 32px;
 }
 
 .workspace-thumbnail-indicator {
     outline: 2px solid white;
     border: 1px solid #888;
 }
-.window-caption {
-    background: rgba(85,85,85,0.8);
-    border: 1px solid rgba(128,128,128,0.40);
-    border-radius: 4px;
-    font-size: 9pt;
-    padding: 2px 8px;
-    -cinnamon-caption-spacing: 4px;
-}
 .window-close {
     background-image: url("assets/close-window.svg");
-    height: 34px;
-    width: 34px;
-    -cinnamon-close-overlap: 20px;
+    background-size: 24px;
+    height: 24px;
+    width: 24px;
+    -cinnamon-close-overlap: 32px;
 }
 .window-close:rtl {
-    -st-background-image-shadow: 2px 2px 6px rgba(0,0,0,0.5);
 }
 
 .window-close-area {

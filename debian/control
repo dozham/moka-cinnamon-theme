@@ -8,7 +8,7 @@ Homepage: https://github.com/moka-project/moka-cinnamon-theme
 
 Package: moka-cinnamon-theme
 Architecture: all
-Depends: ${misc:Depends}
- cinnamon, cinnamon-extensions
+Depends: ${misc:Depends},
+         cinnamon
 Description: Moka Cinnamon Theme
- Moka Cinnamon theme.
+ The titular Cinnamon theme of the Moka Project

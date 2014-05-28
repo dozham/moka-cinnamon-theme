@@ -1,4 +1,4 @@
-Z#!/bin/bash
+#!/bin/bash
 # -*- Mode: sh; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 #
 # Authors:
@@ -37,12 +37,12 @@ esac
 
 function main {
 if [ "$UID" -eq "$ROOT_UID" ]; then
-	if [ -d /usr/share/themes/Moka ]; then
+	if [ -d /usr/share/themes/Moka/cinnamon ]; then
 		echo
 		read -p "Found an existing installation. Replace it? (Y)es, (N)o : " INPUT
 		case $INPUT in
 		[Yy]* ) 
-			rm -Rf /usr/share/themes/Moka 2>/dev/null
+			rm -Rf /usr/share/themes/Moka/cinnamon 2>/dev/null
 			;;
 		[Nn]* )
 			;;
@@ -61,7 +61,7 @@ elif [ "$UID" -ne "$ROOT_UID" ]; then
 		read -p "Found an existing installation. Replace it? (Y)es, (N)o : " INPUT
 		case $INPUT in
 		[Yy]* ) 
-			rm -Rf "$HOME/.themes/Moka" 2>/dev/null
+			rm -Rf "$HOME/.themes/Moka/cinnamon" 2>/dev/null
 			;;
 		[Nn]* )
 			;;		

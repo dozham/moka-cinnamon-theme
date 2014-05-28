@@ -38,9 +38,9 @@ esac
 
 function main {
 if [ "$UID" -eq "$ROOT_UID" ]; then
-	rm -Rf /usr/share/themes/Moka 2>/dev/null
+	rm -Rf /usr/share/themes/Moka/cinnamon 2>/dev/null
 else
-	rm -Rf $HOME/.themes/Moka 2>/dev/null
+	rm -Rf $HOME/.themes/Moka/cinnamon 2>/dev/null
 fi
 echo
 echo "Uninstallation complete."
