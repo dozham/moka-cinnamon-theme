@@ -69,8 +69,8 @@ StScrollBar StButton#vhandle:hover {
     border: 1px solid #777;
     border-radius: 6px;
     padding: 4px 12px;
-    background-gradient-end: rgba(0, 0, 0, 0.8);
-    background-gradient-start: rgba(0, 0, 0, 0.8);
+    background-gradient-end: rgba(0,0,0,0.8);
+    background-gradient-start: rgba(0,0,0,0.8);
     background-gradient-direction: vertical;
     color: #fff    ;
     font-size: 8.5pt;
@@ -363,8 +363,8 @@ StScrollBar StButton#vhandle:hover {
     border: 1px solid #777;
     border-radius: 6px;
     padding: 4px 12px;
-    background-gradient-end: rgba(0, 0, 0, 0.8);
-    background-gradient-start: rgba(0, 0, 0, 0.8);
+    background-gradient-end: rgba(0,0,0,0.8);
+    background-gradient-start: rgba(0,0,0,0.8);
     background-gradient-direction: vertical;
     color: #fff    ;
     font-size: 8.5pt;
@@ -386,25 +386,25 @@ StScrollBar StButton#vhandle:hover {
 .workspace-controls {
     visible-height: 32px; /* Amount visible before hovering */
 }
+.workspace-thumbnails {
+    spacing: 16px;
+}
 .workspace-thumbnails-background {
-    border: 1px solid rgba(128, 128, 128, 0.4);
-    border-right: 0px;
-    border-radius: 9px 9px 0px 0px;
-    background-color: rgba(0, 0, 0, 0.5);
+    border: 4px solid rgba(255,255,255,0.5);
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.5);
     padding: 8px;
 }
 .workspace-thumbnails-background:rtl {
-    border-right: 1px;
-    border-left: 0px;
-    border-radius: 9px 9px 0px 0px;
-}
-.workspace-thumbnails {
-    spacing: 14px;
+    border: 4px solid rgba(255,255,255,0.5);
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 8px;
 }
 .workspace-add-button {
     background-image: url("assets/add-workspace.png");
     height: 200px;
-    width: 32px;
+    width: 40px;
     transition-duration: 300;
 }
 .workspace-add-button:hover {
@@ -436,8 +436,8 @@ StScrollBar StButton#vhandle:hover {
 
 .window-close-area {
     background-image: url("assets/trash.svg");
-    background-color: rgba(60, 60, 60, 0.8);
-    border: 4px solid rgba(128,128,128,0.8);
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.2);
     border-bottom-width: 0px;
     border-radius: 20px 20px 0px 0px;
     height: 120px;
@@ -455,9 +455,8 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .expo-background {
-    background-gradient-start: #000;
-    background-gradient-end: #AAA;
-    background-gradient-direction: vertical
+    background: #333 url("assets/noise-texture.png");
+    background-repeat: repeat;
 }
 
 .workspace-overview-background-shade {
@@ -465,19 +464,20 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .expo-workspace-thumbnail-frame {
-    border: 1px, rgba(64,64,64,0.9);
-    background-color: rgba(64,64,64,0.9);
+    border: none;
+    border-radius: none;
+    background-color: rgba(255,255,255,0.4);
 }
 
 .expo-workspace-thumbnail-frame#active {
-    border: 1px, rgba(32,32,32,0.9);
-    background-color: rgba(32,32,32,0.9);
+    border: 4px solid rgba(255,255,255,0.7);
+    border-radius: 4px;
+    background-color:rgba(255,255,255,0.7);
 }
 
 /* ===================================================================
  * Looking Glass 
  * ===================================================================*/
-/* LookingGlass */
 
 #LookingGlassDialog {
     background-color: rgba(0,0,0,0.9);
@@ -961,7 +961,7 @@ StScrollBar StButton#vhandle:hover {
     padding-top: 16px;
 }
 .lightbox {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0,0,0,0.4);
 }
 
 /* CinnamonMountOperation Dialogs */
@@ -1625,7 +1625,7 @@ StScrollBar StButton#vhandle:hover {
     caret-size: 1px;
     width: 250px;
     height: 15px;   
-    text-align: center; 
+    text-align: center;
     padding-bottom: 7px;
 }
 
@@ -1723,8 +1723,8 @@ StScrollBar StButton#vhandle:hover {
 .snap-osd {
     font-size: 18pt;
     border-radius: 24px;
-    background-color: rgba(0, 0, 0, 0.9);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0,0,0,0.9);
+    border: 1px solid rgba(255,255,255,0.2);
     color: #fff;
     padding-right: 20px;
     padding-left: 20px;
