@@ -52,12 +52,12 @@ StScrollBar StBin#trough {
 }
 StScrollBar StButton#vhandle {
     background-color: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.15);
     border-radius: 16px;
 }
 StScrollBar StButton#hhandle {
     background-color: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.15);
     border-radius: 16px;
 }
 StScrollBar StButton#hhandle:hover,
@@ -112,7 +112,7 @@ StScrollBar StButton#vhandle:hover {
  * ===================================================================*/
 .popup-menu-boxpointer {
     -arrow-border-radius: 1em;
-    -arrow-background-color:#444;
+    -arrow-background-color:rgba(70,70,70,0.95);
     -arrow-border-width: 1px;
     -arrow-border-color: rgba(255,255,255,0.2);
     -arrow-base: 0;
@@ -806,11 +806,11 @@ StScrollBar StButton#vhandle:hover {
     spacing: 16px;
 }
 .switcher-list {
-    background: rgba(80,80,80,0.8);
-    border: 1px solid #a5a5a5;
-    border-radius: 8px;
+    background: rgba(70,70,70,0.9);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 16px;
     padding: 20px;
-    font-size: 9pt;
+    font-size: 10pt;
     color: white;
     text-shadow: black 0px 0px 2px;
 }
@@ -1133,7 +1133,7 @@ StScrollBar StButton#vhandle:hover {
     background-gradient-direction: vertical;
     background-gradient-start: rgba(255,255,255,0.2);
     background-gradient-end: rgba(255,255,255,0.2);
-    box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.1);
+    box-shadow: none;
     border-radius: 8px;
 }
 .menu-places-box {
@@ -1176,15 +1176,12 @@ StScrollBar StButton#vhandle:hover {
     font-weight: bold;
 }
 .menu-application-button-selected {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
+    padding: 8px;
     color: white;
     background-gradient-direction: vertical;
     background-gradient-start: rgba(255,255,255,0.2);
     background-gradient-end: rgba(255,255,255,0.2);
-    box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.06);
+    box-shadow: none;
     border-radius: 4px;
 }
 .menu-application-button-selected:highlighted {
@@ -1198,29 +1195,20 @@ StScrollBar StButton#vhandle:hover {
     padding-right: 5px;
 }
 .menu-category-button {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
+    padding: 7px;
 }
 .menu-category-button-greyed {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
-    color: #9C9C9C;
+    padding: 7px;
+    color: #999;
     font-style: italic;
 }
 .menu-category-button-selected {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
+    padding: 7px;
     color: white;
     background-gradient-direction: vertical;
     background-gradient-start: rgba(255,255,255,0.2);
-    background-gradient-end: rgba(255,255,255,0.08);
-    box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.06);
+    background-gradient-end: rgba(255,255,255,0.2);
+    box-shadow: none;
     border-radius: 4px;
 }
 .menu-category-button-label:ltr {
