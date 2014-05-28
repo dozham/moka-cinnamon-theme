@@ -235,7 +235,7 @@ StScrollBar StButton#vhandle:hover {
  * ===================================================================*/
 #panel {
     color: #f7f7f7;
-    background-color: #444444;
+    background-color: rgba(70,70,70,0.95);
     font-size: 10pt;
     font-weight: normal;
     height: 26px;
@@ -1219,7 +1219,7 @@ StScrollBar StButton#vhandle:hover {
 
 }
 .menu-category-button-button:hover {
-    background-color: #969696;
+    background-color: #999;
     border-radius: 8px;
 }
 /* Name and description of the currently hovered item in the menu
