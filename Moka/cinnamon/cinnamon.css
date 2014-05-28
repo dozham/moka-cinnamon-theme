@@ -404,7 +404,7 @@ StScrollBar StButton#vhandle:hover {
 .workspace-add-button {
     background-image: url("assets/add-workspace.png");
     height: 200px;
-    width: 35px;
+    width: 32px;
     transition-duration: 300;
 }
 .workspace-add-button:hover {
