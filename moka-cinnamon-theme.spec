@@ -15,7 +15,7 @@
 
 Name:		moka-cinnamon-theme
 Version:	1.0
-Release:	0
+Release:	1
 
 Summary:	Moka Cinnamon Theme
 License:    GPL-3.0+ or CC-BY-SA-3.0
@@ -29,7 +29,7 @@ BuildArch:	noarch
 
 
 %description
-Moka Cinnamon Theme
+Moka theme for Cinnamon Desktop
 
 %prep
 %setup -q
@@ -41,5 +41,5 @@ install -dpm 0755 $RPM_BUILD_ROOT%{_datadir}/themes/
 cp -a Moka/ $RPM_BUILD_ROOT%{_datadir}/themes/
 
 %files
-%doc {AUTHORS,LICENSE}
+%doc AUTHORS LICENSE
 %{_datadir}/themes/Moka/
