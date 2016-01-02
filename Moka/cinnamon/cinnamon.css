@@ -888,6 +888,7 @@ StScrollBar StButton#vhandle:hover {
     border-radius: 0.5em;
     background-color: rgba(0,0,0,0.9);
     border: none;
+    color: white;
 
     padding-right: 3em;
     padding-left: 3em;
@@ -896,6 +897,7 @@ StScrollBar StButton#vhandle:hover {
 }
 .modal-dialog-button-box {
     spacing: 24px;
+    padding-top: 10px;
 }
 .modal-dialog-button {
     border-radius: 18px;
